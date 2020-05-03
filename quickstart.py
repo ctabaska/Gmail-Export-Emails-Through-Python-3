@@ -132,7 +132,7 @@ def main():
             else:
                 emailCount[test] += 1
 
-    with open('email_count.tsv', 'w+', newline='', encoding='utf-8') as tsvfile:
+    with open('email_frequency.tsv', 'w+', newline='', encoding='utf-8') as tsvfile:
         for keyValue in emailCount:
             tsvfile.write(keyValue + '\t' + str(emailCount.get(keyValue)) + '\n')
 

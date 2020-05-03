@@ -6,3 +6,4 @@ emails.csv
 emails.tsv
 .DS_Store
 email_count.tsv
+email_frequency.tsv
