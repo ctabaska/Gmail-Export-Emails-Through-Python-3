@@ -4,3 +4,5 @@ token.pickle
 emailTest.txt
 emails.csv
 emails.tsv
+.DS_Store
+email_count.tsv
